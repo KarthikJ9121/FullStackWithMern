@@ -1,0 +1,24 @@
+#container
+{
+    background-color: cyan;
+    height: 200px;
+    width: 80%;
+    margin: 5px;
+}
+
+div
+{
+    height: 100px;
+    width: 100px;
+    color: White;
+    text-align: center;
+    display: flex;
+    flex-direction: row; /* default */
+    /* flex-direction: column;  */
+    /* flex-direction: row-reverse;*/
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; main axis is from bottom-up */
+
+    /* justify-content: left; left, right center */
+    justify-content: space-evenly; /*space-asround space-evenly*/
+}

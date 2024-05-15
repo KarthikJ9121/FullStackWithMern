@@ -1,0 +1,14 @@
+button
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: red;
+}
+
+button:hover
+{
+    background-color: green;
+    color: white;
+    box-shadow: 0 3px 10px black;
+}

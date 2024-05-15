@@ -1,0 +1,67 @@
+h1
+{
+    color: rgba(241, 5, 37, 0.568);
+}
+
+#login
+{
+    background-color: orange;
+    color: white;
+}
+
+#login:hover
+{
+    background-color: green;
+}
+
+li > a
+{
+    color: pink;
+}
+
+li > a:hover
+{
+    color: blue;
+}
+
+p:active
+{
+    color: orange;
+}
+
+p > a:hover
+{
+    text-decoration: none;
+    color: orange;
+    background-color: green;
+}
+
+h3:hover
+{
+    color: red;
+    text-decoration: underline black;
+}
+
+
+.upvote
+{
+    background-color: green;
+}
+
+.upvote:hover
+{
+    color: white;
+    background-color: green;
+}
+
+button
+{
+    border-radius: 50px;
+}
+
+button:hover
+{
+    background-color: red;
+    color: white;
+}
+

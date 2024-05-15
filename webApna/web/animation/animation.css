@@ -1,0 +1,50 @@
+.box
+{
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    /* animation-name: fontAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 2;
+    animation-direction: normal; */
+    animation: fontAnimation 5s ease-in 0s 2 normal none;
+}
+
+@keyframes fontAnimation {
+    from
+    {
+        font-size: 20px;
+        background-color: yellow;
+    }
+    to
+    {
+        font-size: 30px;
+        background-color: blue;
+        border-radius: 5%;
+    }
+}
+
+/* @keyframes fontAnimation
+{
+    0%
+    {
+        background-color: yellow;
+    }
+    20%
+    {
+        background-color: red;
+    }
+    70%
+    {
+        background-color: green;
+    }
+    100%
+    {
+        background-color: orange;
+    }
+} */

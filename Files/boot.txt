@@ -1,0 +1,29 @@
+Reusable Snippets
+
+1.btn,btn- primary,secondary, btn-outline-primary,secondary
+2.text-uppercase,lowercase,capitalize
+3.bg-primary,secondary
+4.d-flex flex-row,column, justify-content-center,start,end , text-center,start,end
+
+
+
+References
+1.cloudinary.com
+2.colorPicker.com
+3.bootstrap-carousels,embed-youtube,icons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

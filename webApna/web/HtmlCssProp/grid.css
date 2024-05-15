@@ -1,0 +1,33 @@
+.container
+{
+    width: 600px;
+    height: 300px;
+    background-color:yellow;
+    display: grid;
+    /* grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: auto auto auto auto; */
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+} 
+
+
+.item
+{
+    background-color: greenyellow;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center ;
+}
+
+.one
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1/4;
+    /* justify-self: center; */
+    /* align-items: center; */
+    place-items: center;
+}

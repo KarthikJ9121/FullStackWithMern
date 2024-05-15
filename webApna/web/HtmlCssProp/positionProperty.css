@@ -1,0 +1,35 @@
+div
+{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+.first
+{
+    position: static;
+}
+
+.second
+{
+    position: relative;
+    left: 200px;
+    top: 300px;
+}
+
+.third
+{
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+}
+
+.four
+{
+    position: fixed;
+    top: 50px;
+    left: 20 0px;
+}
