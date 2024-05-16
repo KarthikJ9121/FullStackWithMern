@@ -4,5 +4,6 @@ for(let btn of btns)
 {
     btn.addEventListener("click", function(){
         console.log("Button was Clicked");
+        this.style.backgroundColor("orange")
     });
 }
