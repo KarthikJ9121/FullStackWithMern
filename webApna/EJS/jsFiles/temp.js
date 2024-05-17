@@ -1,4 +1,4 @@
-let btns = document.querySelectorAll("button");
+let btns = document.querySelectorAll("button");        //belongs to instaPage.ejs
 
 for(let btn of btns)
 {

@@ -63,7 +63,6 @@
 // });
 
 
-
                 /* Case-Study Call-Back Hell */
 
 // function saveToDb(data, success, failure)
@@ -269,6 +268,7 @@
 //         }, 1000);
 //     });
 // }
+
 // async function fun()
 // {
 //     await genRandomNum();

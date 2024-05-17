@@ -8,7 +8,7 @@ console.log(`Hey ${name} you are Welcome`); */
 
 console.log("-------------------STRINGS----------------------") 
 
-let a = " Karthik is about to come   " 
+let a = " Karthik is going   " 
 console.log(a)
 
 console.log("---------------Methods Without arguments-------")
@@ -44,7 +44,7 @@ console.log(arr)
 console.log(arr.unshift("Nav"))
 console.log(arr)
 
-console.log(arr.indexOf(b))
+console.log(arr.indexOf('b'))
 console.log(arr.includes("Nav"))
 
 let brr = arr.concat(['b', 'kart', 123, 345])

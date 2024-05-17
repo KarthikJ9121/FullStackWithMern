@@ -4,14 +4,6 @@ h1
     background-color: orange;
 }
 
-@media (min-width : 400px) {
-    h1
-    {
-        color: white;
-        background-color: black;
-    }
-}
-
 @media (max-width : 200px)
 {
     h1
@@ -21,6 +13,14 @@ h1
     }
 }
 
+@media (min-width : 400px) {
+    h1
+    {
+        color: white;
+        background-color: black;
+    }
+}
+    
 @media (min-width : 500px) and (max-width : 600px) 
 {
     h1

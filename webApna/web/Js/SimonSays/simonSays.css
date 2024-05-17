@@ -31,6 +31,7 @@ h3
     width: 125px;
     border-radius: 15%;
     border: 5px solid black; 
+    cursor: pointer;
 }
 
 .orange

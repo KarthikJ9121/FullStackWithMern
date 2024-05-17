@@ -17,6 +17,10 @@ h1.addEventListener("mouseenter", function()
     h1.style.color = "orange";
 });
 
+h1.addEventListener('mouseleave', () => {
+    h1.style.color = "black";
+});
+
 btn.addEventListener("click", function()
 {
     if(sampleInput.value == "")
