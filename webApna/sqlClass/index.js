@@ -35,7 +35,7 @@ app.get("/", (req, res) => {
     });
     
     } catch (error) {
-      console.log(err);
+      console.log(error);
       res.send("Some Error in the Database");
     }
 });
@@ -52,7 +52,7 @@ app.get("/users", (req, res) => {
     });
     
     } catch (error) {
-      console.log(err);
+      console.log(error);
       res.send("Some Error in the Database");
     }
 });
@@ -72,7 +72,7 @@ app.get("/users/:id/edit", (req, res) => {
         });
         
       } catch (error) {
-        console.log(err);
+        console.log(error);
       }
 }); 
 
@@ -98,14 +98,14 @@ app.patch("/users/:id", (req, res) => {
             });
             
           } catch (error) {
-            console.log(err);
+            console.log(error);
           }
           
         }
       });
       
     } catch (error) {
-      console.log(err);
+      console.log(error);
     }
 });
 
@@ -128,18 +128,78 @@ app.post("/users/add", (req, res) => {
           });
           
         } catch (error) {
-          console.log(err);
+          console.log(error);
         }
     }
     else
     {
-        console.log("Please Enter the Required Fields");
+        console.log("Missing Required Fields");
         res.redirect("/users/add");
     }
 });
 
 app.get("/users/delete", (req, res) => {
     res.render("delete.ejs");
+});
+
+// app.delete("/users/delete", (req, res) => {
+//     let {id, password : pass} = req.body;
+//     if(id === '' || pass === '')
+//     {
+//         console.log("Missing Required Fields");
+//         res.send("Missing Fields");
+//     }
+//     else
+//     {
+//       let q = `select * from user where id = ${id}`;
+//        try {
+//         connection.query(q, (err, result) => {
+//             if(err) throw err;
+//             let user = result[0];
+//             if(pass != user.password)
+//             {
+//                 console.log("Invalid Password");
+//                 res.redirect("/users/delete");
+//             }
+//             else
+//             {
+                
+//             }
+//         });
+
+//       } catch (error) {
+//         console.log(error);
+//       } 
+//     }
+// });
+
+app.delete('/users/delete', (req, res) => {
+  const { id, password } = req.body;
+
+  if (!id || !password) {
+    return res.send('Missing required fields');
+  }
+
+  const selectQuery = 'SELECT * FROM user WHERE id = ?';
+  connection.query(selectQuery, [id], (err, result) => {
+    if (err) {
+      console.error(err);
+      return res.send('Database error');
+    }
+    if (result.length === 0 || result[0].password !== password) {
+      return res.send('Invalid ID or Password');
+    }
+
+    const deleteQuery = 'DELETE FROM user WHERE id = ?';
+    connection.query(deleteQuery, [id], (err, result) => {
+      if (err) {
+        console.error(err);
+        return res.send('Error deleting user');
+      }
+      console.log("User Deleted Successfully");
+      res.redirect('/users');
+    });
+  });
 });
 
 

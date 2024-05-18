@@ -32,7 +32,8 @@ table, th, td
 
 table
 {
-    margin-left: 150px;
+
+    margin: 50px 100px 100px 100px;
     text-align: center;
     border: 5px solid black;
 }
