@@ -1,0 +1,12 @@
+-- create table user(
+--     id int primary key,
+--     name varchar(50) unique,
+--     email varchar(50) unique not null,
+--     password varchar(30) not null
+-- );
+
+-- insert into user values
+-- (1, "kar", "kar123@gmail.com", 123),
+-- (2, "nav", "nav123@gmail.com", 456),
+-- (3, "chandana", "chandana@gmail.com", 123),
+-- (4, "chandu", "chandu123@gmail.com", 456);
