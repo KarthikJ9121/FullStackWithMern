@@ -10,7 +10,9 @@
     <div class="post">
         <h1>Your Details</h1>
         <p>Post id: <%= post.id %></p>
-        <p>Welcome @<%= post.username %></p>
+        <p>Welcome to @<%= post.username %></p>
+        <p>Content: <%= post.content %></p>
+        <a href="http://localhost:8080/posts/<%= post.id %>/edit">Edit</a>
         <a href="http://localhost:8080/posts">Back</a>
     </div>
 </body>
