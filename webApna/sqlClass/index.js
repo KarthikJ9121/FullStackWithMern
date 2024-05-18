@@ -16,7 +16,7 @@ const connection = mysql.createConnection({
   password: 'J.9010048072'
 });
 
-
+/* Home Route */
 app.get("/", (req, res) => {
     let q = 'Select count(*) from user';
 
@@ -32,6 +32,7 @@ app.get("/", (req, res) => {
       res.send("Some Error in the Database");
     }
 });
+
 
 
 app.listen(port, (req, res) => {
