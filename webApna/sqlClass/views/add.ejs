@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+    <style>
+        body
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add new User</h1>
+    <form action="/users/add" method="post">
+        <div>
+            <label for="id">Id</label>
+            <input name="id" placeholder="Enter id" id="id" type="text">
+        </div>
+        <br><br>
+        <div>
+            <label for="name">name</label>
+            <input name="name" placeholder="Enter Your name" id="name" type="text">
+        </div>
+        <br><br>
+        <div>
+            <label for="email">Email</label>
+            <input name="email" placeholder="Enter Your Email" id="email" type="text">
+        </div>
+        <br><br>
+        <div>
+            <label for="password">Password</label>
+            <input name="password" placeholder="Enter password" id="password" type="password">
+        </div>
+        <br><br>
+        <button>Submit</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

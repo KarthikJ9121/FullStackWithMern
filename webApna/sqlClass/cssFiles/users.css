@@ -1,0 +1,43 @@
+/* .user-div
+{
+    border: 3px solid black;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.user
+{
+    background-color: blanchedalmond;
+    margin: 10px;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+body
+{
+    text-align: center;
+    padding-left: 100px;
+}
+
+h1
+{
+    color: orange;
+}
+
+table, th, td
+{
+    border: 3px solid black;
+}
+
+table
+{
+    margin-left: 150px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+td
+{
+    padding: 20px;
+}
