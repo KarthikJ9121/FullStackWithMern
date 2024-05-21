@@ -41,6 +41,9 @@
   - uuid
   - [faker](https://www.npmjs.com/package/@faker-js/faker?activeTab=readme)
   - [mysql2](https://www.npmjs.com/package/mysql2) - links between server and database
+  - [mongoDb](https://www.mongodb.com/try/download)
+  - [mongoDbShell](https://www.mongodb.com/try/download/shell/)
+  - mongoose
 
 
 <hr/>
