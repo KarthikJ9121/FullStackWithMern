@@ -14,7 +14,7 @@ buttonEle.addEventListener("click", function()
        }
        catch(err)
        {
-            console.log("Error");
+            console.log("Error : " + err);
        }
     }
      getFacts();

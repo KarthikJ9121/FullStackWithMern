@@ -20,5 +20,5 @@ div
     /* flex-direction: column-reverse; main axis is from bottom-up */
 
     /* justify-content: left; left, right center */
-    justify-content: space-evenly; /*space-asround space-evenly*/
-}
+    justify-content: space-evenly; /*space-around space-evenly*/
+    }

@@ -1,22 +1,22 @@
-const mongoose = require("mongoose");
+    const mongoose = require("mongoose");
  
-/* To connect With the MongoDb */
+/* To connect With the MongoDb - mongoose, it is an async func*/
 async function main()
 {
     await mongoose.connect('mongodb://127.0.0.1:27017/test');
 }
 
-main()
+main() 
 .then(() => {
     console.log("Connection Success");
 })
 .catch(() => {
     console.log("Error");
-});
+}); 
 
 
 /* dataBase */
-
+ 
 let userSchema = new mongoose.Schema({
     name : String,
     email : String,      //acts as Class
@@ -33,15 +33,15 @@ let stu1 = new student({
     age : 22
 });
 
-/* to print to inserted data  */ 
-// stu1.save()
+/* to print to inserted data  - is an async func */ 
+// stu1.save()                     //to insert into db
 // .then((res) => {
 //     console.log(res);
 // })
 // .catch((res) => {
 //     console.log(err);
 // });
-
+  
 /* to Print the Data using the model */
 // student.find({})
 // .then((res) => {
@@ -50,6 +50,8 @@ let stu1 = new student({
 // .catch((res) => {
 //     console.log(err);
 // });
+
+//can use stu1.insertMany([{}, {}]) to insert many obj's into db
 
 /* Update the Data using Model */
 // student.updateOne({name : "Karthik"},  {name : "kart"})

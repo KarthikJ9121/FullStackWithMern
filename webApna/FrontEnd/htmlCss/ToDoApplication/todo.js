@@ -19,7 +19,8 @@ saveTodoButton.onclick = function() {
 };
 
 // Function to handle the addition of a new Todo
-function onAddTodo() {
+function onAddTodo() 
+{
     let userInputElement = document.getElementById("todoUserInput");
     let userInputValue = userInputElement.value;
 

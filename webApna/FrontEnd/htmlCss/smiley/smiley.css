@@ -4,13 +4,13 @@
     height: 500px;
     width: 500px;
     border-radius: 50px;
-    box-shadow: 0 5px 6px black;
+    /* box-shadow: 0 5px 6px bla; */
     /* transition: 2s; */
 }
 
 .outer-div:hover
 {
-    box-shadow: 0 15px 15px black;
+    box-shadow: 0 15px 15px green;
 }
 
 .face
@@ -45,7 +45,7 @@
     position: absolute;
     top: 160px;
     left: 170px;
-    border-radius: 0 0 50px 50px;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .mouth
@@ -73,7 +73,7 @@ h3
 
 h3:hover
 {
-    color: green;
+    color: blue;
 }
 
 span

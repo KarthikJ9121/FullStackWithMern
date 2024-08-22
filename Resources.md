@@ -1,7 +1,6 @@
 # CMD LINE:
  - [Command Line Remote](https://cloud.google.com/cli)
 
-
 <hr />
 
 # WEB:
@@ -30,15 +29,15 @@
   - [boredApi](boredapi.com)
   - [dogApi](dog.ceo/api)
 
-  ### NPM
+  ### NPM(npmjs.com)
   - node (set "type" : "module")
   - init
   - nodemon
   - figlet
   - method-override
   - express
-  - ejs (use extension from vs code)
-  - uuid
+  - ejs lang support(use extension from vs code)
+  - uuid [universally unique identifier]
   - [faker](https://www.npmjs.com/package/@faker-js/faker?activeTab=readme)
   - [mysql2](https://www.npmjs.com/package/mysql2) - links between server and database
   - [mongoDb](https://www.mongodb.com/try/download)
@@ -46,6 +45,14 @@
   - mongoose
   - [MiddleWare Functions](blog.bitsrc.io/5-express-middleware-libraries-every-developer-should-know)
   - [Express MiddleWares](expressjs.com/middlewares)
+  - vite@latest
+
+  ###React
+  
+  - [React](https://react.dev/)
+  - [React v/s Vite](https://semaphoreci.com/blog/vite)
+  - [Vite](https://vitejs.dev/) - npm run dev
+  - [React rules](react.dev/learn/writing-markup-with-jsx)
 
 
 <hr/>
@@ -55,10 +62,8 @@
 
  <hr />
 
-
 # OTHERS:
   - [maghoosh]()
-
 
 <hr />
 

@@ -3,16 +3,15 @@ const app = express();
 
 let port = 3000;
 
-
-// console.dir(app); //to Print the dir of the expres
+// console.dir(app); //to Print the dir of the express
 
 /* To actually run the sample server */
 
-/* Sending the Data */
+/* Sending the Data */3
 
-// app.use((req, res) => {
-//     console.log("Request Received to server");
-// });
+app.use((req, res) => {
+    console.log("Request Received to server");
+});
 
 /* Receiving it from server */
 

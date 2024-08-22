@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const methodOverride = require("method-override")    //to override the method of the html verbs
 const path = require("path");            //This is for to set the path for running from any path,
 const app = express();
-const port = 8080;
+const port = 3000;
 
 /* MiddleWares */
 app.use(express.urlencoded({extended : true}));     //for handling the every request

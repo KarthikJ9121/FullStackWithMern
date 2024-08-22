@@ -6,7 +6,7 @@ const methodOverride = require("method-override")    //to override the method of
 
 let app = express();
 let port = 8080;
-
+ 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "/views"));
 
@@ -19,7 +19,7 @@ app.use(express.json());
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  database: 'webdevelopment',
+  database: 'webdevelopment', 
   password: 'J.9010048072'
 });
 
@@ -228,9 +228,7 @@ app.listen(port, (req, res) => {
 
 // let data = [];
 // for(let i = 0; i < 100; i++)
-// {
 //     data.push(createRandomUser());
-// }
 
 // let q = "insert into user values ?"
 

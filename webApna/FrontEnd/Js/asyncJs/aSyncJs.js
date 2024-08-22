@@ -15,7 +15,6 @@
 // three(); 
 
 
-
                 /* Aynchronous With the callbacks */
                 
 // let h1 = document.querySelector("h1");
@@ -98,24 +97,26 @@
 
                 /*Case-Study Promises */
     
-// function saveTodb(data)
-// {
-//     return new Promise((resolve, reject) => {
-//         let internetSpeed = Math.floor(Math.random() * 10);
-//         if(internetSpeed > 4)
-//             resolve("Success : Data Was Saved");
-//         else
-//             reject("Failure: Data Was Not Saved");
-//     });
-// }
+function saveTodb(data)
+{
+    return new Promise((resolve, reject) => {
+        let internetSpeed = Math.floor(Math.random() * 10);
+        if(internetSpeed > 4)
+            resolve("Success : Data Was Saved");
+        else
+            reject("Failure: Data Was Not Saved");
+    });
+}
 
-// saveTodb("Karthik")
-//     .then(() => {
-//         console.log("Promise Was Resovled");
-//     }) 
-//     .catch(() => {
-//         console.log("Promise Was Rejected");
-//     })
+saveTodb("Karthik")
+    .then((result) => {
+        console.log(result);
+        console.log("Promise Was Resovled");
+    }) 
+    .catch((result) => {
+        console.log(result);
+        console.log("Promise Was Rejected");
+    })
 
 
                 /*Improved version Of Promises - Promise chaining */

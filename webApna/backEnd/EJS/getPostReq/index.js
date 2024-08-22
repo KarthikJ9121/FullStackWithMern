@@ -4,7 +4,7 @@ const port = 8080;
 
 /* MiddleWares */
 app.use(express.urlencoded({extended : true}));     //for handling the every request
-app.use(express.json());                           //it is for json format          
+app.use(express.json());                           //it is for json format, and is understood by the server through request    
 
 app.get('/register', (req, res) => {
     let {user, password} = req.query;             //req.query has the get(response) data

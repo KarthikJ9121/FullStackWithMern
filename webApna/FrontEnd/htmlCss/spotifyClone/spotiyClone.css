@@ -189,6 +189,11 @@ a
     padding: 0.5rem;
     margin: 0.5rem 0.5rem;
 }
+ 
+.card:hover
+{
+    box-shadow: 5px 5px 15px white;
+}
 
 .cards-container
 {

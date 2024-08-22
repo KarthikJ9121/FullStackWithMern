@@ -1,0 +1,15 @@
+.ticket
+{
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+span
+{
+    margin: 5px;
+}
+
+.buyTicket
+{
+    border: 3px solid black;
+}

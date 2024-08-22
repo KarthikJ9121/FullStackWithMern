@@ -98,7 +98,7 @@ console.log(sum(4, 5)); //this is window here
 console.log(this);
 
 
-console.log("----------------------------try-catch--------------")
+console.log("----------------------------try-catch--------------");
 
 let x = 10;
 console.log(x);
@@ -110,7 +110,7 @@ try{
 }
 
 
-console.log("-----------------------Arrow Functions--------------------")
+console.log("-----------------------Arrow Functions--------------------");
 
 let m = (c, d) =>
 {
@@ -140,9 +140,6 @@ setTimeout(() =>
 }, 4000);
 
 console.log("Karthik")
-
-
-
 
 let id = setInterval(() => 
 {
@@ -182,11 +179,9 @@ arr.forEach(element => {
     console.log(element);
 });
 
-
-
 let num = [1,2,4,7,2,0]
 
-let db = num.map((el) => el **2);
+let db = num.map((el) => el ** 2);
 console.log(db);
 
 let even = num.filter((num) => num %2 == 0);

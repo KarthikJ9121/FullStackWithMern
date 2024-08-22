@@ -25,7 +25,7 @@ function todoStarted(req)
                 console.log(i, ' : ', todo[i]);
             }
             console.log("-------------------------------")
-                break;
+            break;
         }
     
         else if(req == 2)

@@ -25,7 +25,7 @@ function startGame()
                 console.log("Hey You, Champ\nCongrats You Won !!");
                 if(c == 1)
                 {
-                    console.log(`You have made ${c} wrong choices`);
+                    console.log(`You have made ${c} wrong choice`);
                     break;
                 }
                 console.log(`You have made ${c} wrong choices`);
